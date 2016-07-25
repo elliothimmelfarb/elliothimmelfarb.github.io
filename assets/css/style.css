@@ -12,6 +12,7 @@
 
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Amaranth:400,400i);
 /* === fontawesome === */
 @import url('../plugins/font-awesome/font-awesome.css');
 /* ==== animate styles ==== */
@@ -82,15 +83,17 @@ a:hover {
 
 .section {
 	margin:0;
-	padding: 50px  0 30px ;
+	padding: 50px  0 115px;
 }
 
 .heading {
     color:#fff;
+		text-align: center;
 }
 
 .heading-text{
     color:#fff;
+		text-align: center;
 }
 
 
@@ -204,6 +207,7 @@ About Section
 =========================== */
 #section-about {
    background-color: #21435a;
+   \: 16px;
 }
 .member-photo {
 	box-sizing:border-box;
@@ -220,6 +224,38 @@ About Section
 
 .team-detail h4 {
 	font-weight: 700;
+}
+
+.center {
+	text-align: center;
+}
+
+iframe {
+	margin: 0 auto;
+}
+
+/*===========================
+  Quote Area
+============================ */
+
+
+
+.quote-text {
+	margin-top: 10px;
+	font-family: 'Aramanth', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	font-style: italic;
+	margin-top: 33px;
+}
+
+.quoteAttr {
+	margin-bottom: -5px;
+}
+
+.quote-attr {
+	margin bottom: 10px;
+	margin-bottom: 33px;
 }
 
 
@@ -446,10 +482,10 @@ div.Contact-response-output {
  ================= */
 
 .footer {
-	background: #242424;
+	background: #21435a;
 	margin: 0;
-    padding: 30px 0 10px;
-    color:#fff;
+	padding: 30px 0 10px;
+	color:#fff;
 }
 
 .copyright {
