@@ -170,6 +170,7 @@ h1 a.navbar-brand {
 
 .navbar-brand img {
 	vertical-align: middle;
+	height: 89px;
 }
 
 .navbar-toggle {
@@ -190,14 +191,25 @@ h1 a.navbar-brand {
 
 #Homepage {
     padding: 100px 0 60px;
-    background-color:#21435a;
+    /*background-color:#21435a;*/
+    background: url('/assets/img/banner.jpg') center 25px fixed;
+		background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    padding-top: 23%;
+    height: 100vh;
 }
 
 
 .main-text {
-	font-size: 40px;
+	font-size: 75px;
 	font-weight: 900;
-    color:#fff;
+	color:#fff;
+	margin-bottom: 89px;
+	line-height: normal;
 }
 
 
@@ -206,7 +218,7 @@ h1 a.navbar-brand {
 About Section
 =========================== */
 #section-about {
-   background-color: #21435a;
+   background-color: #091423;
    \: 16px;
 }
 .member-photo {
@@ -237,6 +249,8 @@ iframe {
 
 .skill-header {
 	color: white;
+	margin-bottom: 2px;
+	margin-top: 55px;
 }
 
 
@@ -274,7 +288,7 @@ iframe {
     padding-top: 20px;
 }
 #section-works {
-    background-color: #21435a;
+    background-color: #091423;
 }
 nav#filter a {
     padding: 10px!important;
@@ -282,7 +296,7 @@ nav#filter a {
 	color:#555;
 }
 nav#filter a:hover, nav#filter a.current {
-	background-color: #21435a;
+	background-color: #0c203a;
 	color:#fff;
 }
 
@@ -385,7 +399,7 @@ nav#filter a {
   --- Services Section----
 =========================== */
 #section-services {
-    background-color: #21435a;
+    background-color: #091423;
 }
 /*===========================
   --- Contact Section----
@@ -489,7 +503,7 @@ div.Contact-response-output {
  ================= */
 
 .footer {
-	background: #21435a;
+	background: #091423;
 	margin: 0;
 	padding: 30px 0 10px;
 	color:#fff;
