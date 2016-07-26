@@ -12,7 +12,7 @@
 
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400i);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400i|Roboto);
 /* === fontawesome === */
 @import url('../plugins/font-awesome/font-awesome.css');
 /* ==== animate styles ==== */
@@ -30,8 +30,13 @@ body {
 
 }
 
-body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Open Sans', sans-serif;
+@font-face {
+	font-family: 'Earth Orbiter';
+	src: url('/assets/plugins/fonts/earth_orbiter/earthorbiter.ttf');
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, button {
+	font-family: 'Roboto', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
 	color:rgba(1, 82, 255, 0.54);
@@ -42,8 +47,11 @@ h1,h2,h3,h4,h5,h6 {
 	margin:30px 0 40px 0;
 }
 h1 { font-size: 50px; line-height: 30px; }
-h2 { font-size: 40px; }
-h3 { font-size: 24px; }
+h2 {
+	font-size: 50px;
+	font-family: 'Earth Orbiter';
+}
+h3 { font-size: 24px; font-family: 'Earth Orbiter';}
 h4 { font-size: 18px; }
 h5 { font-size: 16px; }
 .txt-uppercase { text-transform: uppercase; }
@@ -188,28 +196,39 @@ h1 a.navbar-brand {
   --- Home Page section ----
 =========================== */
 
+.homepageImg {
+	position: fixed;
+	background: url('/assets/img/banner.jpg') center 25px;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	z-index: -1;
+}
 
 #Homepage {
     padding: 100px 0 60px;
     /*background-color:#21435a;*/
-    background: url('/assets/img/banner.jpg') center 25px fixed;
-		background-repeat: no-repeat;
+    /*background: url('/assets/img/banner.jpg') center 25px fixed;*/
+    /*background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+		-webkit-transform: translate3d(0,0,0);
     background-size: cover;
     z-index: -1;
-    padding-top: 23%;
+    padding-top: 23%; */
     height: 100vh;
+    padding-top: 25%;
 }
 
 
 .main-text {
-	font-size: 75px;
+	font-size: 53px;
 	font-weight: 900;
 	color:#fff;
 	margin-bottom: 89px;
 	line-height: normal;
+	font-family: 'Earth Orbiter';
 }
 
 
@@ -262,16 +281,18 @@ iframe {
 
 .quote-text {
 	margin-top: 10px;
-	font-family: 'PT Serif', sans-serif;
+	/* font-family: 'PT Serif', sans-serif; */
 	font-size: 29px;
 	line-height: 34px;
 	font-weight: 400;
 	font-style: italic;
 	margin-top: 49px;
+	color: whitesmoke;
 }
 
 .quoteAttr {
 	margin-bottom: -5px;
+	color: white;
 }
 
 .quote-attr {
@@ -673,7 +694,7 @@ a.scrollup{
 /*back color class*/
 
 .bgcolor-whitesmoke {
-    background-color: whitesmoke
+    background-color: transparent;
 }
 
 .text-bold {
