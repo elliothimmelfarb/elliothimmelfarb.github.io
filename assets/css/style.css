@@ -12,7 +12,7 @@
 
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Amaranth:400,400i);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400i);
 /* === fontawesome === */
 @import url('../plugins/font-awesome/font-awesome.css');
 /* ==== animate styles ==== */
@@ -83,7 +83,7 @@ a:hover {
 
 .section {
 	margin:0;
-	padding: 50px  0 115px;
+	padding: 50px  0 51px;
 }
 
 .heading {
@@ -113,7 +113,7 @@ a:hover {
 
 .navbar .navbar-collapse {
 	margin-bottom: 0;
-	padding-bottom:0;
+	padding-bottom: 0;
 }
 
 .nav li {
@@ -234,6 +234,12 @@ iframe {
 	margin: 0 auto;
 }
 
+
+.skill-header {
+	color: white;
+}
+
+
 /*===========================
   Quote Area
 ============================ */
@@ -242,11 +248,12 @@ iframe {
 
 .quote-text {
 	margin-top: 10px;
-	font-family: 'Aramanth', sans-serif;
-	font-size: 25px;
-	font-weight: 300;
+	font-family: 'PT Serif', sans-serif;
+	font-size: 29px;
+	line-height: 34px;
+	font-weight: 400;
 	font-style: italic;
-	margin-top: 33px;
+	margin-top: 49px;
 }
 
 .quoteAttr {
