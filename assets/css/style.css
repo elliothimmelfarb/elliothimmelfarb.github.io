@@ -313,11 +313,24 @@ iframe {
   Work Section
 ============================ */
 
+.modal-dialog {
+  margin-top: 30%;
+}
+
+.modal-footer {
+	text-align: center;
+}
+
+.modal-header {
+	text-align: center;
+}
+
 #filter {
     padding-top: 20px;
 }
 #section-works {
     background-color: #091423;
+    margin-bottom: 23px;
 }
 nav#filter a {
     padding: 10px!important;
@@ -336,6 +349,11 @@ nav#filter a:hover, nav#filter a.current {
 
 #portfolio img  {
 	width:100%;
+	height: auto;
+}
+
+.portfolio-info-img {
+	width: 100%;
 }
 
 #portfolio article p {
@@ -356,16 +374,17 @@ nav#filter a {
 }
 
 
-.portfolio-items article img {width:100%;height: 280px;}
+.portfolio-items article img {width:280px;height: 280px;}
 
 .portfolio-item {
 	display: block;
 	position: relative;
+	width: 280px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-    border: 1px solid #B3B1B1;
+	border: 1px solid #B3B1B1;
 }
 .portfolio-item img {
 	-webkit-transition: all 300ms linear;
