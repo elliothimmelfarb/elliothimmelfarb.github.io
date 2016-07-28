@@ -45,10 +45,10 @@
       <div class="navbar-collapse collapse" data-scrollreveal="enter from the right 50px">
         <ul class="nav navbar-nav">
           <li class=""><a href="#Homepage">Home</a></li><!-- menu links-->
-          <li><a href="#section-about">About Me</a></li>
-          <li><a href="#section-works">Portfolio</a></li>
-          <li><a href="#section-services">Blog</a></li>
-          <li><a href="#section-contact">Resume</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-projects">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Resume</a></li>
         </ul>
       </div>
 
@@ -102,21 +102,23 @@
 <!--END HOMEPAGE SECTION-->
 
 <!-- ABOUT SECTION-->
-<section id="section-about" class="section">
+<section id="about-me" class="section">
   <div class="container" data-scrollreveal='after 0.30s'>
     <div class="row">
       <div class="col-md-offset-2 col-md-8">
-        <div>
+        <div class='aboutMe'>
           <h2 class="heading">About Me</h2>
           <p class="heading-text">
             I'm a full-stack Javascript developer with a passion for code, improving my skills, and
             making the world a better place through utilizing my abilities and connections. My goal is to make applications and games which increase the capacity for empathy and sensitivity towards others.
           </p>
-          <br/>
-          <hr>
         </div>
-        <h2 class="heading skill-header">Skills</h2>
-        <p class='heading-text'>Javascript, HTML5, CSS3, NodeJS, MongoDB, MongooseJS, ExpressJS, AngularJS, MEAN-stack, React, Socket.io, jQuery, Bootstrap, Git, Jade/Pug, AJAX, Gulp, NPM, Bower</p>
+        <br/>
+        <hr>
+        <div class='skills'>
+          <h2 class="heading">Skills</h2>
+          <p class='heading-text'>Javascript, HTML5, CSS3, NodeJS, MongoDB, MongooseJS, ExpressJS, AngularJS, MEAN-stack, React, Socket.io, jQuery, Bootstrap, Git, Jade/Pug, AJAX, Gulp, NPM, Bower</p>
+        </div>
       </div>
     </div>
   </div>
@@ -153,7 +155,9 @@
     </div>
   </div>
 </section>
-<section id="section-works" class="section" >
+
+
+<section id="my-projects" class="section" >
   <div class="container" data-scrollreveal="enter top move 50px">
     <div class="row">
       <div class="col-md-offset-2 col-md-8">
@@ -169,122 +173,117 @@
   </div>
 </section>
 <section >
-  <div class="container" data-scrollreveal="enter right and move 40px, over 0.8s">
+  <div class="container portfolio-area" data-scrollreveal="enter right and move 40px, over 0.8s">
 
 
-    <div class="row">
-      <!-- <nav id="filter" class="col-md-12 text-center">
-      <ul>
-      <li><a href="#" class="current  btn btn-default" data-filter="*">All Items</a></li>
-      <li><a href="#" class="btn btn-default" data-filter=".webdesign">Web Design</a></li>
-      <li><a href="#" class="btn btn-default" data-filter=".photography">Photography</a></li>
-      <li><a href="#" class="btn btn-default" data-filter=".print">Print</a></li>
-    </ul>
-  </nav> -->
-  <div class="col-md-12">
-    <div class="row">
-      <div class="portfolio-items isotopeWrapper clearfix" id="3">
 
-        <article class="col-md-4 isotopeItem">
-          <div class="portfolio-item">
-            <img src="assets/img/portfolio/angular-banking.png" alt="Angular" />
-            <div class="portfolio-desc align-center">
-              <div class="folio-info">
-                <h5><a data-toggle="modal" data-target='#angularBanking'>Angular Banking App</a></h5>
-                <a data-toggle="modal" data-target='#angularBanking'><i class="fa fa-search-plus fa-2x"></i></a>
-              </div>
-            </div>
-          </div>
-        </article>
+    <!-- <nav id="filter" class="col-md-12 text-center">
+    <ul>
+    <li><a href="#" class="current  btn btn-default" data-filter="*">All Items</a></li>
+    <li><a href="#" class="btn btn-default" data-filter=".webdesign">Web Design</a></li>
+    <li><a href="#" class="btn btn-default" data-filter=".photography">Photography</a></li>
+    <li><a href="#" class="btn btn-default" data-filter=".print">Print</a></li>
+  </ul>
+</nav> -->
+<div class="col-md-12">
+  <div class="row">
+    <div class="portfolio-items isotopeWrapper clearfix" id="3">
 
-        <div class="modal fade" id="angularBanking" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Angular Banking App</h4>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-xs-6">
-                    <img alt='Angular app' title='Angular, Node, Express'  class='portfolio-info-img' src="assets/img/portfolio/angular-banking.png" alt="">
-                  </div>
-                  <div class="col-xs-6">
-                    <p>Keep track of your money by adding transactions.</p>
-                    <p>Uses Angular, Express, Node, and ng-storage</p>
-                    <p>
-                      <a target='_blank' href="https://github.com/elliothimmelfarb/angular-banking-app">View on Github</a>
-                    </p>
-                    <p>
-                      <a target='_blank' href="https://pure-retreat-72972.herokuapp.com/#">Live Demo</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+      <article class="col-md-4 isotopeItem">
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/angular-banking.png" alt="Angular" />
+          <div class="portfolio-desc align-center">
+            <div class="folio-info">
+              <h5><a data-toggle="modal" data-target='#angularBanking'>Angular Banking App</a></h5>
+              <a data-toggle="modal" data-target='#angularBanking'><i class="fa fa-search-plus fa-2x"></i></a>
             </div>
           </div>
         </div>
+      </article>
 
-
-        <article class="col-md-4 isotopeItem">
-          <div class="portfolio-item">
-            <img src="assets/img/portfolio/yelp-off-yelp.png" alt="MEAN Stack" />
-            <div class="portfolio-desc align-center">
-              <div class="folio-info">
-                <h5><a data-toggle="modal" data-target='#angularBanking'>Yelp off Yelp</a></h5>
-                <a data-toggle="modal" data-target='#angularBanking'><i class="fa fa-search-plus fa-2x"></i></a>
-              </div>
+      <div class="modal fade" id="angularBanking" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Angular Banking App</h4>
             </div>
-          </div>
-        </article>
-
-        <div class="modal fade" id="angularBanking" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Yelp off Yelp</h4>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-xs-6">
-                    <img alt='MEAN stack app' title='My MEAN stack App' class='portfolio-info-img' src="assets/img/portfolio/yelp-off-yelp.png" alt="">
-                  </div>
-                  <div class="col-xs-6">
-                    <p>Register, Login, search, save and remove favorites</p>
-                    <p>See how many times businesses have been favorited by other users</p>
-                    <p>
-                      <a target='_blank' href="https://github.com/elliothimmelfarb/yelp-business-search-tracker">View on Github</a>
-                    </p>
-                    <p>
-                      <a target='_blank' href="https://polar-beach-86016.herokuapp.com/#/">Live Demo</a>
-                    </p>
-                  </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-6">
+                  <img alt='Angular app' title='Angular, Node, Express'  class='portfolio-info-img' src="assets/img/portfolio/angular-banking.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                  <p>Keep track of your money by adding transactions.</p>
+                  <p>Uses Angular, Express, Node, and ng-storage</p>
+                  <p>
+                    <a target='_blank' href="https://github.com/elliothimmelfarb/angular-banking-app">View on Github</a>
+                  </p>
+                  <p>
+                    <a target='_blank' href="https://pure-retreat-72972.herokuapp.com/#">Live Demo</a>
+                  </p>
                 </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
+      </div>
 
 
+      <article class="col-md-4 isotopeItem">
+        <div class="portfolio-item">
+          <img src="assets/img/portfolio/yelp-off-yelp.png" alt="MEAN Stack" />
+          <div class="portfolio-desc align-center">
+            <div class="folio-info">
+              <h5><a data-toggle="modal" data-target='#yelp-off-yelp'>Yelp off Yelp</a></h5>
+              <a data-toggle="modal" data-target='#yelp-off-yelp'><i class="fa fa-search-plus fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+      </article>
 
-
+      <div class="modal fade" id="yelp-off-yelp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Yelp off Yelp</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-6">
+                  <img alt='MEAN stack app' title='My MEAN stack App' class='portfolio-info-img' src="assets/img/portfolio/yelp-off-yelp.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                  <p>Register, Login, search, save and remove favorites</p>
+                  <p>See how many times businesses have been favorited by other users</p>
+                  <p>
+                    <a target='_blank' href="https://github.com/elliothimmelfarb/yelp-business-search-tracker">View on Github</a>
+                  </p>
+                  <p>
+                    <a target='_blank' href="https://polar-beach-86016.herokuapp.com/#/">Live Demo</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
+</div>
 </div>
 </section>
 <!--END WORKS SECTION-->
 
 <!-- BLOG SECTION-->
-<section id="section-services" class="section" >
+<section id="blog" class="section" >
   <div class="container" data-scrollreveal='after 0.30s'>
     <div class="row">
       <div class="col-md-offset-2 col-md-8">

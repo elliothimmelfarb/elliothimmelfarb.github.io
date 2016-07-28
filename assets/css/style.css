@@ -184,8 +184,8 @@ h1 a.navbar-brand {
 }
 
 .navbar-brand img {
-	vertical-align: middle;
-	height: 89px;
+	margin-top: 5px;
+	height: 76px;
 }
 
 .navbar-toggle {
@@ -243,7 +243,7 @@ h1 a.navbar-brand {
 /*==========================
 About Section
 =========================== */
-#section-about {
+#about-me {
    background-color: #091423;
    \: 16px;
 }
@@ -284,7 +284,11 @@ iframe {
   Quote Area
 ============================ */
 
-
+.br-quote {
+height: 100vh;
+padding-top: 40vh;
+padding-bottom: 0vh;
+}
 
 .quote-text {
 	margin-top: 10px;
@@ -310,11 +314,19 @@ iframe {
 
 
 /*===========================
-  Work Section
+  About Me
 ============================ */
 
+.aboutMe {
+margin-bottom: 50px;
+}
+
+.skills {
+margin-top: 103px;
+}
+
 .modal-dialog {
-  margin-top: 30%;
+  margin-top: 30vh;
 }
 
 .modal-footer {
@@ -328,10 +340,15 @@ iframe {
 #filter {
     padding-top: 20px;
 }
-#section-works {
+#my-projects {
     background-color: #091423;
     margin-bottom: 23px;
 }
+
+.portfolio-area {
+	text-align: center;
+}
+
 nav#filter a {
     padding: 10px!important;
 	background-color: #EEE;
@@ -372,6 +389,8 @@ nav#filter a {
 	line-height: 20px;
 	text-decoration: none;
 }
+
+.portfolio-items {text-align: center;}
 
 
 .portfolio-items article img {width: 278px;height: 280px;}
@@ -446,7 +465,7 @@ nav#filter a {
 /*===========================
   --- Services Section----
 =========================== */
-#section-services {
+#blog {
     background-color: #091423;
 }
 /*===========================
