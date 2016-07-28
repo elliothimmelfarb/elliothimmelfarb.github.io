@@ -390,7 +390,7 @@ nav#filter a {
 	text-decoration: none;
 }
 
-.portfolio-items {text-align: center;}
+.portfolio-items {text-align: center;margin-top: 30px;}
 
 
 .portfolio-items article img {width: 278px;height: 280px;}
@@ -447,9 +447,10 @@ nav#filter a {
 
 .portfolio-item:hover .folio-info{
 	height: 100%;
-    opacity: 1;
-    transition: all 500ms ease-in-out 0s;
+	opacity: 1;
+	transition: all 500ms ease-in-out 0s;
 	top:5px;
+	cursor: pointer;
 }
 
 
@@ -467,6 +468,7 @@ nav#filter a {
 =========================== */
 #blog {
     background-color: #091423;
+    margin-top: 20vh;
 }
 /*===========================
   --- Contact Section----
