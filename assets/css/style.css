@@ -203,6 +203,14 @@ h1 a.navbar-brand {
   --- Home Page section ----
 =========================== */
 
+.modal-dialog.modal-lg {
+    margin-top: 10vh;
+}
+
+.modal-content {
+    height: 90vh;
+}
+
 .homepageImg {
 	position: fixed;
 	background: url('../img/banner.png') center 25px;
@@ -714,7 +722,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 /* portfolio */
 .portfolio-item .portfolio-desc {
-	background: rgb(153, 206, 255);
+	background: rgb(57, 85, 111);
 }
 
 /* top bars */
