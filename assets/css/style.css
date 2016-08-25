@@ -412,6 +412,7 @@ nav#filter a {
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	border: 1px solid #B3B1B1;
+	margin: 0 auto;
 }
 .portfolio-item img {
 	-webkit-transition: all 300ms linear;
