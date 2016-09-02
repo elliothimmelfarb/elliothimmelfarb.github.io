@@ -31,10 +31,10 @@
 <div class="modal fade my-resume" tabindex="-1" role="dialog" aria-labelledby="myResume">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <iframe src="./assets/img/resume.pdf" width="100%" height="100%" ></iframe>
-      </div>
+      <iframe src="./assets/img/resume.pdf" width="100%" height="100%" zoom='200' ></iframe>
     </div>
   </div>
+</div>
 
 <body>
 
@@ -62,7 +62,6 @@
 
     </div>
   </div>
-</div>
 
   <!-- END HEADER SECTION-->
 
@@ -127,40 +126,81 @@
         <hr>
         <div class='skills'>
           <h2 class="heading">Skills</h2>
-          <p class='heading-text'>ES6, Node, React, Redux, Angular, MongoDB, Mongoose, Express, HTML5, CSS3, MEAN-stack, Socket.io, jQuery, Bootstrap, Git, Jade/Pug, AJAX, Gulp, NPM</p>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/logo_JavaScript.png" alt="">
+            </div>
+            <p class="heading-text">JavaScript</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/react.png" alt="">
+            </div>
+            <p class="heading-text">React (JSX)</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/redux.png" alt="">
+            </div>
+            <p class="heading-text">Redux</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/angular.png" alt="">
+            </div>
+            <p class="heading-text">Angular</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/mongo.jpg" alt="">
+            </div>
+            <p class="heading-text">Mongo</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/nodejs.jpeg" alt="">
+            </div>
+            <p class="heading-text">Node</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/expressjs.png" alt="">
+            </div>
+            <p class="heading-text">Express</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/google_maps.png" alt="">
+            </div>
+            <p class="heading-text">Google Maps API</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/jquery.png" alt="">
+            </div>
+            <p class="heading-text">jQuery</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/html5.svg" alt="">
+            </div>
+            <p class="heading-text">HTML5</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/css3.svg" alt="">
+            </div>
+            <p class="heading-text">CSS3</p>
+          </div>
+          <div class="skillIconDiv">
+            <div class="skillImgDiv">
+              <img class=skillIcon src="assets/img/skillIcons/bootstrap.png" alt="">
+            </div>
+            <p class="heading-text">Bootstrap</p>
+          </div>
+          <br>
+          <hr class="afterHr"/>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- WORKS SECTION-->
-
-<section class="br-quote">
-  <div class="container" data-scrollreveal='wait 0.10s'>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <p class=quote-text>
-          The way Aaron always saw it, is that
-          programming is magic.
-          You can accomplish these things that normal
-          humans can't, by being able to program.
-          So if you had magical powers, would you use
-          them for good, or to make you mountains of cash?
-        </p>
-      </div>
-    </div>
-    <div class="row quote-attr">
-      <div class="col-md-offset-5 col-md-3">
-        <p class='quoteAttr'>
-          - Ben Swartz
-        </p>
-        <p style='font-style: italic' class='quoteAttr'>
-          The Internet's Own Boy
-        </p>
-        <p class='quoteAttr'>
-          23:58 - 24:13
-        </p>
       </div>
     </div>
   </div>
@@ -221,7 +261,7 @@
             <div class="modal-body">
               <div class="row">
                 <div class="col-xs-6">
-                  <img alt='Angular app' title='Angular, Node, Express'  class='portfolio-info-img' src="assets/img/portfolio/angular-banking.png" alt="">
+                  <img alt='React Redux app' title='React, Node, Express'  class='portfolio-info-img' src="assets/img/portfolio/fix-our-city.png" alt="">
                 </div>
                 <div class="col-xs-6">
                   <p>A Crowd Sourced serCity Maintenance Reporter</p>
@@ -329,7 +369,7 @@
           </div>
         </div>
       </div>
-      
+
       <article class="col-md-4 isotopeItem">
         <div class="portfolio-item">
           <img src="assets/img/portfolio/angular-banking.png" alt="angular" />
@@ -404,11 +444,40 @@
       <script async src="https://static.medium.com/embed.js"></script>
     </div>
   </div>
-</div>
+</section>
 
-</div>
+<section class="section">
+  <br/>
+</section>
 
-</div>
+<section class="br-quote">
+  <div class="container" data-scrollreveal='wait 0.10s'>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <p class=quote-text>
+          The way Aaron always saw it, is that
+          programming is magic.
+          You can accomplish these things that normal
+          humans can't, by being able to program.
+          So if you had magical powers, would you use
+          them for good, or to make you mountains of cash?
+        </p>
+      </div>
+    </div>
+    <div class="row quote-attr">
+      <div class="col-md-offset-5 col-md-3">
+        <p class='quoteAttr'>
+          - Ben Swartz
+        </p>
+        <p style='font-style: italic' class='quoteAttr'>
+          The Internet's Own Boy
+        </p>
+        <p class='quoteAttr'>
+          23:58 - 24:13
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!--END PAGE CONTENT-->
